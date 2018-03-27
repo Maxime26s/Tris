@@ -40,7 +40,7 @@ public class Main {
             smallest=i;
             temp1=liste.get(i);
             for(int j=i;j<liste.size();j++){
-                if(liste.get(i).compareTo(liste.get(j))>0){
+                if(temp1.compareTo(liste.get(j))>0){
                     temp1=liste.get(j);
                     smallest=j;
                 }
